@@ -1,0 +1,100 @@
+{
+  "campaign": "Biotherm",
+  "timezone": "ET",
+  "last_updated_utc": "2026-06-22T10:11:07.819528+00:00",
+  "report_updated_at_label": "June 22nd 2026 6:11 AM ET",
+  "updated_to": "2026-06-21",
+  "includes_orders_up_to_label": "June 21st 2026 ET",
+  "rows": [
+    {
+      "variant": "Pulsation Berry",
+      "available": 4700,
+      "claimed": 302,
+      "remaining": 4398,
+      "percent_remaining": 93.6,
+      "percent_remaining_display": "93.6%"
+    },
+    {
+      "variant": "Citrus Tonic",
+      "available": 5000,
+      "claimed": 141,
+      "remaining": 4859,
+      "percent_remaining": 97.2,
+      "percent_remaining_display": "97.2%"
+    },
+    {
+      "variant": "TOTAL",
+      "available": 9700,
+      "claimed": 443,
+      "remaining": 9257,
+      "percent_remaining": 95.4,
+      "percent_remaining_display": "95.4%"
+    }
+  ],
+  "redemptions_by_day": {
+    "dates": [
+      "06/16",
+      "06/17",
+      "06/18",
+      "06/19",
+      "06/20",
+      "06/21"
+    ],
+    "date_iso": [
+      "2026-06-16",
+      "2026-06-17",
+      "2026-06-18",
+      "2026-06-19",
+      "2026-06-20",
+      "2026-06-21"
+    ],
+    "rows": [
+      {
+        "variant": "Pulsation Berry",
+        "values": [
+          4,
+          17,
+          31,
+          57,
+          84,
+          109
+        ],
+        "total": 302
+      },
+      {
+        "variant": "Citrus Tonic",
+        "values": [
+          1,
+          6,
+          18,
+          21,
+          34,
+          61
+        ],
+        "total": 141
+      },
+      {
+        "variant": "Total",
+        "values": [
+          5,
+          23,
+          49,
+          78,
+          118,
+          170
+        ],
+        "total": 443
+      }
+    ],
+    "max_columns_per_table": 20
+  },
+  "_debug": {
+    "source_rows": 6,
+    "latest_date": "2026-06-21",
+    "claimed_by_variant": {
+      "Pulsation Berry": 302,
+      "Citrus Tonic": 141
+    },
+    "status": "ok"
+  }
+}
