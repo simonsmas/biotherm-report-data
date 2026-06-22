@@ -1,0 +1,46 @@
+name: Update Biotherm Report
+
+on:
+  workflow_dispatch:
+  push:
+    paths:
+      - "biotherm_daily_total.xlsx"
+      - "Biotherm_daily_total.xlsx"
+      - "biotherm_daily_totals.xlsx"
+      - "Biotherm_daily_totals.xlsx"
+      - "daily_totals.xlsx"
+      - "generate_biotherm_json.py"
+      - ".github/workflows/update-biotherm-report.yml"
+
+permissions:
+  contents: write
+
+jobs:
+  update-report:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: Install dependencies
+        run: |
+          python -m pip install --upgrade pip
+          pip install pandas openpyxl
+
+      - name: Generate Biotherm JSON
+        run: |
+          python generate_biotherm_json.py biotherm_totals.json
+
+      - name: Commit updated JSON
+        run: |
+          git config user.name "github-actions"
+          git config user.email "github-actions@github.com"
+          git add biotherm_totals.json
+          git diff --cached --quiet && echo "No changes to commit" || git commit -m "Update Biotherm report data"
+          git push
