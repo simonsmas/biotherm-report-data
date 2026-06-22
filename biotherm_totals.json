@@ -1,10 +1,10 @@
 {
   "campaign": "Biotherm",
-  "timezone": "ET",
-  "last_updated_utc": "2026-06-22T10:11:07.819528+00:00",
-  "report_updated_at_label": "June 22nd 2026 6:11 AM ET",
+  "timezone": "CET",
+  "last_updated_utc": "2026-06-22T10:26:31.948185+00:00",
+  "report_updated_at_label": "June 22nd 2026 12:26 PM CET",
   "updated_to": "2026-06-21",
-  "includes_orders_up_to_label": "June 21st 2026 ET",
+  "includes_orders_up_to_label": "June 21st 2026 CET",
   "rows": [
     {
       "variant": "Pulsation Berry",
