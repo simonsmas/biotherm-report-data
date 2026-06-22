@@ -5,8 +5,8 @@ from datetime import datetime, timezone
 import pandas as pd
 
 CAMPAIGN = "Biotherm"
-TIMEZONE_LABEL = "ET"
-TIMEZONE = "America/New_York"
+TIMEZONE_LABEL = "CET"
+TIMEZONE = "Europe/Berlin"
 
 EXCEL_FILE_CANDIDATES = [
     "biotherm_daily_total.xlsx",
