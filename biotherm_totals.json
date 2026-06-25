@@ -1,34 +1,34 @@
 {
   "campaign": "Biotherm",
   "timezone": "CET",
-  "last_updated_utc": "2026-06-24T10:33:58.276713+00:00",
-  "report_updated_at_label": "June 24th 2026 12:33 PM CET",
-  "updated_to": "2026-06-23",
-  "includes_orders_up_to_label": "June 23rd 2026 CET",
+  "last_updated_utc": "2026-06-25T09:27:01.974890+00:00",
+  "report_updated_at_label": "June 25th 2026 11:27 AM CET",
+  "updated_to": "2026-06-24",
+  "includes_orders_up_to_label": "June 24th 2026 CET",
   "rows": [
     {
       "variant": "Pulsation Berry",
       "available": 4700,
-      "claimed": 567,
-      "remaining": 4133,
-      "percent_remaining": 87.9,
-      "percent_remaining_display": "87.9%"
+      "claimed": 724,
+      "remaining": 3976,
+      "percent_remaining": 84.6,
+      "percent_remaining_display": "84.6%"
     },
     {
       "variant": "Citrus Tonic",
       "available": 5000,
-      "claimed": 279,
-      "remaining": 4721,
-      "percent_remaining": 94.4,
-      "percent_remaining_display": "94.4%"
+      "claimed": 350,
+      "remaining": 4650,
+      "percent_remaining": 93.0,
+      "percent_remaining_display": "93%"
     },
     {
       "variant": "TOTAL",
       "available": 9700,
-      "claimed": 846,
-      "remaining": 8854,
-      "percent_remaining": 91.3,
-      "percent_remaining_display": "91.3%"
+      "claimed": 1074,
+      "remaining": 8626,
+      "percent_remaining": 88.9,
+      "percent_remaining_display": "88.9%"
     }
   ],
   "redemptions_by_day": {
@@ -40,7 +40,8 @@
       "06/20",
       "06/21",
       "06/22",
-      "06/23"
+      "06/23",
+      "06/24"
     ],
     "date_iso": [
       "2026-06-16",
@@ -50,7 +51,8 @@
       "2026-06-20",
       "2026-06-21",
       "2026-06-22",
-      "2026-06-23"
+      "2026-06-23",
+      "2026-06-24"
     ],
     "rows": [
       {
@@ -63,9 +65,10 @@
           84,
           109,
           124,
-          141
+          141,
+          157
         ],
-        "total": 567
+        "total": 724
       },
       {
         "variant": "Citrus Tonic",
@@ -77,9 +80,10 @@
           34,
           61,
           64,
-          74
+          74,
+          71
         ],
-        "total": 279
+        "total": 350
       },
       {
         "variant": "Total",
@@ -91,19 +95,20 @@
           118,
           170,
           188,
-          215
+          215,
+          228
         ],
-        "total": 846
+        "total": 1074
       }
     ],
     "max_columns_per_table": 20
   },
   "_debug": {
-    "source_rows": 8,
-    "latest_date": "2026-06-23",
+    "source_rows": 9,
+    "latest_date": "2026-06-24",
     "claimed_by_variant": {
-      "Pulsation Berry": 567,
-      "Citrus Tonic": 279
+      "Pulsation Berry": 724,
+      "Citrus Tonic": 350
     },
     "status": "ok"
   }
